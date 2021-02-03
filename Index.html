@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!--author:Roosevelt Cooper
+    Roocoope@uat.edu
+    wk2-1 assignment 
+-->
+<html>
+
+<head>
+    <title>
+        HybridSpace Page
+    </title>
+</head>
+
+<body>
+    <img src=UATspaceLogo-2.jpg>
+    <h1>
+        UATSpace Program
+    </h1>
+
+    <script>
+        document.write("Test of the document.write function");
+    </script>
+    <p>
+        By starting the sequence the Hybrid transformation begins
+    </p>
+
+    <script>
+        /*I want credit for alert function
+        (Reference https://synchronic.uat.edu/courses/3843/assignments/137161?return_to=https%3A%2F%2Fsynchronic.uat.edu%2Fcalendar%23view_name%3Dmonth%26view_start%3D2021-01-01)
+        so here it is...*/
+        alert("Test of the Alert Function!"); 
+    </script>
+    <br>
+    <p id="ctdntimer">Countdown timer Results</p>
+    <br>
+    <button onclick="countdownTimer();">Start</button>
+    <button>Stop</button>
+    <script>
+        function countdownTimer() {
+            //start at 50 sec
+            setTimeout(function () {
+                document.getElementById("ctdntimer").innerHTML = "50";
+            }, 1000);
+
+            //45 sec 
+            setTimeout(function () {
+                document.getElementById("ctdntimer").innerHTML = "45";
+            }, 6000);
+
+            //40 sec 
+            setTimeout(function () {
+                document.getElementById("ctdntimer").innerHTML = "40";
+            }, 11000);
+
+            //35 sec 
+            setTimeout(function () {
+                document.getElementById("ctdntimer").innerHTML = "35";
+            }, 16000);
+
+            //30 sec 
+            setTimeout(function () {
+                document.getElementById("ctdntimer").innerHTML = "30";
+            }, 21000);
+
+            //25 sec 
+            setTimeout(function () {
+                document.getElementById("ctdntimer").innerHTML = "25";
+            }, 26000);
+
+            //20 sec 
+            setTimeout(function () {
+                document.getElementById("ctdntimer").innerHTML = "20";
+            }, 31000);
+
+            //15 sec 
+            setTimeout(function () {
+                document.getElementById("ctdntimer").innerHTML = "15";
+            }, 36000);
+
+            //10 sec 
+            setTimeout(function () {
+                document.getElementById("ctdntimer").innerHTML = "10";
+            }, 41000);
+
+            //5 sec 
+            setTimeout(function () {
+                document.getElementById("ctdntimer").innerHTML = "5";
+            }, 46000);
+
+            //0 sec 
+            setTimeout(function () {
+                document.getElementById("ctdntimer").innerHTML = "0";
+            }, 51000);
+
+        //0 sec 
+        setTimeout(function () {
+                document.getElementById("ctdntimer").innerHTML = "TRANSFORMATION INITIATED/BLASTOFF!!!!!";
+            }, 56000);
+        }
+
+    </script>
+</body>
+
+
+</html>
